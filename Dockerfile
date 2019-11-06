@@ -20,9 +20,9 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-FROM centos8
+FROM centos:8
 MAINTAINER Yegor Bugayenko <yegor256@gmail.com>
-LABEL Description="Developers tools for Yum testing" Vendor="Yegor Bugayenko" Version="0.1"
+LABEL Description="Developers tools for Yum and Rpm testing" Vendor="Yegor Bugayenko" Version="0.1"
 
 ENV DEBIAN_FRONTEND noninteractive
 
